@@ -1,100 +1,95 @@
 body {
-    color: black;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 0;
+  color: #000000;
+  font-family: "League Spartan", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
 }
-
 
 .header {
-    background-color: #5b9cd6;
-    color: white;
+  background-color: #5b9cd6;
+  color: #ffffff;
 }
-
 
 .footer {
-    background-color: #5b9cd6;
-    height: 20px;
+  background-color: #5b9cd6;
+  height: 20px;
 }
 
-
 h1 {
-    font-size: 60px;
-    color: white;
-    margin: 0;
-    float: left;
-    text-align: center;
-    width: 60%;
-    padding-top: 20px;
+  font-size: 60px;
+  color: #ffffff;
+  margin: 0;
+  float: left;
+  text-align: center;
+  width: 60%;
+  padding-top: 20px;
 }
 
 h2 {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .header img {
-    width: 20%;
-    border-radius: 50%;
-    margin: 30px;
+  width: 20%;
+  border-radius: 50%;
+  margin: 30px;
 }
-
-.summary {
-    clear: both;
-}
-
 
 table {
-    border-spacing: 0;
+  border-spacing: 0;
 }
 
 th,
 td {
-    text-align: left;
-   border-bottom: 1px solid black;
-    padding: 5px 0;
-    padding: 0 50px;
+  text-align: left;
+  border-bottom: 1px solid black;
+  padding: 0 50px;
 }
 
 .level {
-    border-left: 1px solid black;
+  border-left: 1px solid black;
 }
 
-
 section {
-    margin: 10px 10%;
-    overflow: auto;
+  margin: 10px 10%;
+  overflow: auto;
 }
 
 .contact a:hover,
 .contact a:focus,
 .contact a:active {
-    color: #5b9cd6;
+  color: #5b9cd6;
 }
 .contact a {
-     text-decoration: none;
-     color: #154b7a;
-     font-weight: bold;
+  text-decoration: none;
+  color: #154b7a;
+  font-weight: bold;
 }
 
 .menu {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #154b7a;;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #154b7a;
 }
 
 .menu li {
-    display: inline-block;
+  display: inline-block;
 }
 .menu ul {
-    margin: 0;
+  margin: 0;
 }
 
 .menu a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 10px 30px;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 30px;
 }
 
+.menu a:hover,
+.menu a:focus {
+  background-color:  #ffffff;
+  color: #154b7a;
+}
